@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: "jdbc:postgresql://localhost:5433/wordSender"
+    username: "postgres"
+    password: "postgres"
+    driver-class-name: org.postgresql.Driver
+
+  application:
+      name: "WORD-CONSUMER"
+
+server:
+  port: 8080
